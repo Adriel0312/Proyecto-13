@@ -113,6 +113,10 @@ public class FiltrosBusqueda2 extends AppCompatActivity {
 
 
     private void cargarProfesiones() {
+        correoSesion = getIntent().getStringExtra("parametro");
+        buscar = (Button)findViewById(R.id.buscar);
+        comboProfesiones = (Spinner) findViewById(R.id.spinnerProfesiones);
+        comboProvincias = (Spinner) findViewById(R.id.provincia);
         API consulta = new API();
         JSONArray res = consulta.getProfesiones();
         listaProfesiones = new ArrayList<String>();
