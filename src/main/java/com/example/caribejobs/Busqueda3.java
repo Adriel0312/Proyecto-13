@@ -76,6 +76,25 @@ public class Busqueda3 extends AppCompatActivity {
             }
         }
     }
+    
+     public void cargarZonas2(){
+
+        API consulta = new API();
+        JSONArray res = consulta.getZonaEspecifica(idHabilidad);
+       
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+
+                mLista.add(json.getString("provincia")+", "+json.getString("canton"));
+                mAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,mLista);
+                listaZonas.setAdapter(mAdapter);
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+    }
 
 
 }
