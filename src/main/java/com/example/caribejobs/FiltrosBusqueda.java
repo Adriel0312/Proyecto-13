@@ -44,8 +44,36 @@ public class FiltrosBusqueda extends AppCompatActivity {
         comboProvincias = (Spinner) findViewById(R.id.provincia);
 
         correoSesion = getIntent().getStringExtra("parametro");
+        API consulta = new API();
+        JSONArray res = consulta.getProfesiones();
+        listaProfesiones = new ArrayList<String>();
+        listaProfesiones.add("Seleccione la profesión a buscar");
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                listaProfesiones.add(json.getString("nombre"));
+                //Log.d("Profesion",listaProfesiones.toString());
 
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+         API consulta = new API();
+        JSONArray res = consulta.getProvincias();
+        listaProvincias = new ArrayList<String>();
+        listaProvincias.add("Seleccione una provincia");
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                listaProvincias.add(json.getString("provincia"));
+                Log.d("Provincia",listaProvincias.toString());
 
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
         cargarProfesiones();
         ArrayAdapter<CharSequence> adaptador = new ArrayAdapter(this, R.layout.spinner_item,listaProfesiones);
         comboProfesiones.setAdapter(adaptador);
@@ -57,7 +85,12 @@ public class FiltrosBusqueda extends AppCompatActivity {
                 if(correoSesion != null){
                     intent.putExtra("parametro", correoSesion);
                 }
+                 buscar = (Button)findViewById(R.id.buscar);
+                comboProfesiones = (Spinner) findViewById(R.id.spinnerProfesiones);
+                regresar = (ImageButton) findViewById(R.id.botonRegresar);
+                comboProvincias = (Spinner) findViewById(R.id.provincia);
 
+                correoSesion = getIntent().getStringExtra("parametro");
                 startActivity(intent);
             }
         });
@@ -78,47 +111,18 @@ public class FiltrosBusqueda extends AppCompatActivity {
                     intent.putExtra("parametro3", comboProfesiones.getSelectedItem().toString());
                     intent.putExtra("parametro4", comboProvincias.getSelectedItem().toString());
                 }
+                 buscar = (Button)findViewById(R.id.buscar);
+                comboProfesiones = (Spinner) findViewById(R.id.spinnerProfesiones);
+                regresar = (ImageButton) findViewById(R.id.botonRegresar);
+                comboProvincias = (Spinner) findViewById(R.id.provincia);
 
+                correoSesion = getIntent().getStringExtra("parametro");
                 startActivity(intent);
             }
         });
     }
 
 
-    private void cargarProfesiones() {
-        API consulta = new API();
-        JSONArray res = consulta.getProfesiones();
-        listaProfesiones = new ArrayList<String>();
-        listaProfesiones.add("Seleccione la profesión a buscar");
-        for(int i=0; i<res.length();i++){
-            try {
-                JSONObject json = res.getJSONObject(i);
-                listaProfesiones.add(json.getString("nombre"));
-                //Log.d("Profesion",listaProfesiones.toString());
 
-            } catch (JSONException e) {
-                e.printStackTrace();
-                Log.d("Error",e.toString());
-            }
-        }
-    }
 
-    public void cargarProvincias(){
-        API consulta = new API();
-        JSONArray res = consulta.getProvincias();
-        listaProvincias = new ArrayList<String>();
-        listaProvincias.add("Seleccione una provincia");
-        for(int i=0; i<res.length();i++){
-            try {
-                JSONObject json = res.getJSONObject(i);
-                listaProvincias.add(json.getString("provincia"));
-                Log.d("Provincia",listaProvincias.toString());
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-                Log.d("Error",e.toString());
-            }
-        }
-
-    }
 }
