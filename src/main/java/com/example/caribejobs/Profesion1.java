@@ -141,5 +141,650 @@ public class Profesion1 extends AppCompatActivity {
         Log.d("Id",idHabilidad2);
         return idHabilidad2;
     }
+     API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    } API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
+ API consulta = new API();
+        String idHabilidad2="j";
+        JSONArray res = consulta.getIdHabilidad();
+        for(int i=0; i<res.length();i++){
+            try {
+                JSONObject json = res.getJSONObject(i);
+                idHabilidad2 =json.getString("idhabilidad");
+                //Log.d("Profesion",listaProfesiones.toString());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+                Log.d("Error",e.toString());
+            }
+        }
+        Log.d("Id",idHabilidad2);
+        return idHabilidad2;
+    }
 
 }
